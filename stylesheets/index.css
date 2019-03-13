@@ -36,6 +36,7 @@ h1 {
 .list,
 .detail {
     height: 100%;
+    font-size: 20px;
 }
 
 .list {
@@ -46,22 +47,19 @@ h1 {
     min-width: 35%;
     max-width: 35%;
     padding: 1em;
+    /* text-align: center; */
 }
 
 .list ul {
     list-style: none;
 }
 
-.list ul li {
-    /* display: inline-block; */
+.list ul li a:hover {
+    font-size: 25px;
 }
 
-.list ul li:hover {
-    transform: scale(1.1);
-}
-
-.list ul li:active {
-    transform: scale(1.0);
+.list ul li a:active {
+    font-size: 20px;
 }
 
 .detail {
