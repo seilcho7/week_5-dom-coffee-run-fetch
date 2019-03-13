@@ -21,6 +21,7 @@ fetch(URL)
 function storeOrders(arrayOfOrders) {
     const jsonOrders = JSON.stringify(arrayOfOrders);
     localStorage.setItem(storageKey, jsonOrders);
+    main();
 }
 
 function loadOrders() {
